@@ -17,7 +17,7 @@ public class checkBalance extends JFrame{
     public checkBalance(){
         super("Account Balance");
         ImageIcon img = new ImageIcon(getClass().getResource("checkBalance.png"));
-        Font lbFont =new Font(null,Font.BOLD,25);
+        Font lbFont =new Font(null,Font.BOLD,22);
         pnBack = new JPanel(new GridBagLayout());
         add(pnBack);
 

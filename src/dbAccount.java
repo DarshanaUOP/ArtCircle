@@ -35,7 +35,6 @@ public class dbAccount {
                     stmtAccount = conAccount.createStatement();
                     stmtAccount.executeUpdate("CREATE DATABASE "+dbName);
                     stmtAccount.executeUpdate("USE "+dbName);
-
                     stmtAccount.execute("create table ArtCircleAccount(TRANSACTIONUMBER int(11) unsigned auto_increment primary key not null,NAMEGIVEN varchar(50) not null,EVENTFOR varchar(50) not null,AMOUNT DOUBLE not null,SUBJECT VARCHAR(50) NOT NULL,DATEGIVEN VARCHAR(50) NOT NULL,TIMEGIVEN VARCHAR(50) NOT NULL,BILLSTATUS VARCHAR(50) NOT NULL,DESCRIPTION VARCHAR(50) NOT NULL,RETURNAMOUNT INT(11) NOT NULL,ENTEREDBY VARCHAR(50) NOT NULL)");
 
                     JOptionPane.showMessageDialog(null,"DB "+dbName+" Created","Done",JOptionPane.PLAIN_MESSAGE);
@@ -316,7 +315,6 @@ public class dbAccount {
             rsAccount = stmtAccount.executeQuery("SELECT AMOUNT, RETURNAMOUNT FROM artcircleaccount WHERE 1");
 
             while(rsAccount.next()){
-
                 balanceLength++;
             }
 
