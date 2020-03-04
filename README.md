@@ -7,4 +7,4 @@ This is a java Application and you needs to install java runtime environment bef
 and it has integrated with mySQl database, so you are required to run XAMP OR WAMP Server on your computer.
 
 ### DESCRIPTION
-This is a Java UI application that is devoped for collect all small transactions in any society, company or use as your private volate recorder.
+This is a Java UI application that is devoped for collect all small transactions in any society, company or use as your private wallet recorder.
