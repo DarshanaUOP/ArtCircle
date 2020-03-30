@@ -173,8 +173,6 @@ public class GUI extends JFrame {
         con.fill = GridBagConstraints.BOTH;
         panComponents.add(new JScrollPane(resultList), con);
 
-
-
         lblTransaction =new JLabel("Transaction Number");
         lblTransaction.setFont(lblFont);
         con.gridx = 2;
